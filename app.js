@@ -652,8 +652,8 @@ const DEFAULT_STATE = {
 // GTA IV Station Metadata
 const RADIO_STATIONS = [
   { id: "off", name: "Radio Off", icon: "🔇", freq: "OFF", defaultSong: "Radio Disabled", src: null },
-  { id: "track1", name: "Speed Garage NCS", icon: "🎵", freq: "99.1 FM", defaultSong: "Alex Moretto - All Night Long", src: "Alex Moretto - All Night Long  Speed Garage  NCS - Copyright Free Music.mp3" },
-  { id: "track2", name: "Seasons Remix NCS", icon: "🎧", freq: "103.2 FM", defaultSong: "Rival x Cadmium - Seasons", src: "Rival x Cadmium - Seasons (ft Harley Bird) [Futuristik & Whogaux Remix]  NCS - Copyright Free Music.mp3" }
+  { id: "track1", name: "Speed Garage NCS", icon: "🎵", freq: "99.1 FM", defaultSong: "Alex Moretto - All Night Long", src: "track1.mp3" },
+  { id: "track2", name: "Seasons Remix NCS", icon: "🎧", freq: "103.2 FM", defaultSong: "Rival x Cadmium - Seasons", src: "track2.mp3" }
 ];
 
 let state = { ...DEFAULT_STATE };
